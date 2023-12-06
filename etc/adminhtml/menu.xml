@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="ModMage_Ship::ways" title="ModMage" module="ModMage_Ship" sortOrder="49" resource="ModMage_Ship::ways"/>
+        <add id="ModMage_Ship::third_configuration" title="Manage shipping methods" module="ModMage_Ship" sortOrder="10" parent="ModMage_Ship::ways" action="make_ship/ways/index" resource="ModMage_Ship::ways_configuration"/>
+    </menu>
+</config>
+

@@ -1,0 +1,19 @@
+{
+    "name": "lonmelgit/modmage_ship",
+    "description": "module ModMage_Ship for Magento 2",
+    "type": "library",
+      "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ModMage\\Ship\\": ""
+        }
+    }
+}
